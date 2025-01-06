@@ -1,7 +1,6 @@
 # ICT
 
 <html>
-  ahoj
   <h1>WEBOVECKA</h1>
   <p>
   AHOJ
