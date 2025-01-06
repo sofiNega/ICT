@@ -3,6 +3,7 @@
 <html>
   <head>NASE WEBOVECKA<head>
   <h1>WEBOVECKA</h1>
+  <style>color🥖</style>
   <p>
   AHOJ
   </p>
