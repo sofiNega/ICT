@@ -1,7 +1,7 @@
 # ICT
 
 <html>
-  <title>NASE WEBOVECKA<title>
+  <head>NASE WEBOVECKA<head>
   <h1>WEBOVECKA</h1>
   <p>
   AHOJ
