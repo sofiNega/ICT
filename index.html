@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Země - Interaktivní mapa</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <link rel="stylesheet" href="styles.css"> <!-- Odkaz na CSS soubor -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">DOMOV</a></li>
+                <li><a href="informace.html">INFORMACE</a></li>
+                <li><a href="zajimavosti.html">ZAJÍMAVOSTI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Interaktivní mapa zemí světa</h1>
+            <p>Klikněte na jakoukoli zemi na mapě pro více informací.</p>
+
+            <!-- Obrázek mapy s interaktivními oblastmi -->
+            <img src="https://www.texart.cz/images/0/ba5aadb25a133f1e/2/mapa-sveta-barevna-pouze-tisk-150-x-100-cm.png?hash=1675151801" 
+                 alt="Mapa světa" usemap="#worldmap" class="mapa">
+
+            <!-- Definice mapování obrázku -->
+            <map name="worldmap">
+                <!-- Odkaz na Rusko -->
+                <area shape="rect" coords="650,150,750,220" alt="Rusko" href="rusko.html">
+                <!-- Odkaz na Česko -->
+                <area shape="rect" coords="500,320,540,350" alt="Česko" href="cesko.html">
+                <!-- Odkaz na USA -->
+                <area shape="rect" coords="600,200,650,240" alt="USA" href="usa.html">
+                <!-- Odkaz na Francii -->
+                <area shape="rect" coords="380,100,430,140" alt="Francie" href="francie.html">
+                <!-- Odkaz na Španělsko -->
+                <area shape="rect" coords="440,190,480,220" alt="Španělsko" href="spanelsko.html">
+                <!-- Odkaz na Německo -->
+                <area shape="rect" coords="370,180,420,210" alt="Německo" href="nemecko.html">
+                <!-- Odkaz na Polsko -->
+                <area shape="rect" coords="480,300,520,330" alt="Polsko" href="polsko.html">
+                <!-- Odkaz na Čínu -->
+                <area shape="rect" coords="800,250,820,290" alt="Čína" href="cina.html">
+                <!-- Odkaz na Finsko -->
+                <area shape="rect" coords="530,270,540,290" alt="Finsko" href="finsko.html">
+                <!-- Odkaz na Kazachstán -->
+                <area shape="rect" coords="890,310,920,330" alt="Kazachstán" href="kazachstan.html">
+                <!-- Odkaz na Austrálii -->
+                <area shape="rect" coords="940,650,980,680" alt="Austrálie" href="australie.html">
+            </map>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pouze pro studijní účely</p>
+    </footer>
+</body>
+</html>
