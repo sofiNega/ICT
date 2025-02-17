@@ -6,43 +6,129 @@
     <title>Země</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon -->
     <link rel="stylesheet" href="styles.css"> <!-- Odkaz na CSS soubor -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .intro {
+            background-color: #4d90fe;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .countries {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .country {
+            width: 200px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .country img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">DOMOV</a></li>
-                <li><a href="informace.html">INFORMACE</a></li>
-                <li><a href="zajimavosti.html">ZAJÍMAVOSTI</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="intro">
-            <h1>Informace o zemích světa</h1>
-            <p>Vyberte zemi a zjistěte více informací o ní.</p>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">DOMOV</a></li>
+            <li><a href="informace.html">INFORMACE</a></li>
+            <li><a href="zajimavosti.html">ZAJÍMAVOSTI</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul>
-                <!-- Links to country pages with brief descriptions and images -->
-                <li><a href="rusko.html">Rusko</a> - Největší země na světě</li>
-                <li><a href="cesko.html">Česko</a> - Země v srdci Evropy</li>
-                <li><a href="usa.html">USA</a> - Supervelmoc se širokou rozmanitostí</li>
-                <li><a href="francie.html">Francie</a> - Kultura, móda a víno</li>
-                <li><a href="spanelsko.html">Španělsko</a> - Západní Evropa a slunečné pláže</li>
-                <li><a href="nemecko.html">Německo</a> - Technologický lídr a historie</li>
-                <li><a href="polsko.html">Polsko</a> - Bohatá historie a kultura</li>
-                <li><a href="cina.html">Čína</a> - Největší populace a starověká historie</li>
-                <li><a href="finsko.html">Finsko</a> - Zimní krajina a přírodní krásy</li>
-                <li><a href="kazachstan.html">Kazachstán</a> - Rozlehlá země ve střední Asii</li>
-                <li><a href="australie.html">Austrálie</a> - Ostrovní kontinent s unikátní faunou</li>
-            </ul>
-        </section>
-    </main>
+<main>
+    <section class="intro">
+        <h1>Informace o zemích světa</h1>
+        <p>Vyberte zemi a zjistěte více informací o ní.</p>
+    </section>
 
-    <footer>
-        <p>Pouze pro studijní účely</p>
-    </footer>
+    <section class="countries">
+        <div class="country">
+            <a href="rusko.html"><img src="https://www.livingstone.cz/upload/responsive/kraken/info-o-zemich/asie/Rusko-hlavicka-02.jpg" alt="Rusko"></a>
+            <p><a href="rusko.html">Rusko</a> - Největší země na světě</p>
+        </div>
+        <div class="country">
+            <a href="cesko.html"><img src="https://www.cestovinky.cz/sites/default/files/styles/medium/public/images/1/bigstock-vltava-river-and-gradchany-pr-87185927.jpg?itok=HYgRSTKH" alt="Česko"></a>
+            <p><a href="cesko.html">Česko</a> - Země v srdci Evropy</p>
+        </div>
+        <div class="country">
+            <a href="usa.html"><img src="usa.jpg" alt="USA"></a>
+            <p><a href="usa.html">USA</a> - Supervelmoc se širokou rozmanitostí</p>
+        </div>
+        <div class="country">
+            <a href="francie.html"><img src="https://storage.googleapis.com/businessinfo_cz/2019/12/f8fa6ac4-eiffelova-vez-pariz-francie-shutterstock_1041178405-scaled.jpg" alt="Francie"></a>
+            <p><a href="francie.html">Francie</a> - Kultura, móda a víno</p>
+        </div>
+        <div class="country">
+            <a href="spanelsko.html"><img src="https://www.protravel.cz/img/__galerie/29254-23371-35013-57141-77924.jpg" alt="Španělsko"></a>
+            <p><a href="spanelsko.html">Španělsko</a> - Západní Evropa a slunečné pláže</p>
+        </div>
+        <div class="country">
+            <a href="nemecko.html"><img src="https://www.cestujlevne.com/obrazky/14/07/1407-1200w.jpg" alt="Německo"></a>
+            <p><a href="nemecko.html">Německo</a> - Technologický lídr a historie</p>
+        </div>
+        <div class="country">
+            <a href="polsko.html"><img src="polsko.jpg" alt="Polsko"></a>
+            <p><a href="polsko.html">Polsko</a> - Bohatá historie a kultura</p>
+        </div>
+        <div class="country">
+            <a href="cina.html"><img src="cina.jpg" alt="Čína"></a>
+            <p><a href="cina.html">Čína</a> - Největší populace a starověká historie</p>
+        </div>
+        <div class="country">
+            <a href="finsko.html"><img src="finsko.jpg" alt="Finsko"></a>
+            <p><a href="finsko.html">Finsko</a> - Zimní krajina a přírodní krásy</p>
+        </div>
+        <div class="country">
+            <a href="kazachstan.html"><img src="kazachstan.jpg" alt="Kazachstán"></a>
+            <p><a href="kazachstan.html">Kazachstán</a> - Rozlehlá země ve střední Asii</p>
+        </div>
+        <div class="country">
+            <a href="australie.html"><img src="australie.jpg" alt="Austrálie"></a>
+            <p><a href="australie.html">Austrálie</a> - Ostrovní kontinent s unikátní faunou</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Pouze pro studijní účely</p>
+</footer>
+
 </body>
 </html>
-
