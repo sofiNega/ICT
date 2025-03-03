@@ -49,8 +49,23 @@
             margin-bottom: 20px;
         }
         .country img {
-            width: 100%;
-            height: auto;
+            width: 200px;
+            height: 120px;
+            object-fit: cover; /* Ensures images maintain aspect ratio */
+        }
+        .country p {
+            font-size: 20px;
+            color: blue;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .country ul {
+            text-align: left;
+            padding-left: 20px;
+            list-style-type: none;
+        }
+        .country ul li {
+            margin: 5px 0;
         }
         footer {
             text-align: center;
@@ -75,13 +90,12 @@
 <main>
     <section class="intro">
         <h1>Informace o zemích světa</h1>
-    
     </section>
 
     <section class="countries">
         <div class="country">
-            <a href="rusko"></a><img src="https://www.livingstone.cz/upload/responsive/kraken/info-o-zemich/asie/Rusko-hlavicka-02.jpg" alt="Rusko"></a>
-            <p><a href="rusko">Rusko</a> - Největší země na světě</p>
+            <img src="https://www.livingstone.cz/upload/responsive/kraken/info-o-zemich/asie/Rusko-hlavicka-02.jpg" alt="Rusko">
+            <p>Rusko - Největší země na světě</p>
             <ul>
                 <li>Hlavní město: Moskva</li>
                 <li>Oficiální jazyk: Ruština</li>
@@ -92,8 +106,8 @@
         </div>
 
         <div class="country">
-            <a href="cesko.html"><img src="https://www.cestovinky.cz/sites/default/files/styles/medium/public/images/1/bigstock-vltava-river-and-gradchany-pr-87185927.jpg?itok=HYgRSTKH" alt="Česko"></a>
-            <p><a href="cesko.html">Česko</a> - Země v srdci Evropy</p>
+            <img src="https://www.cestovinky.cz/sites/default/files/styles/medium/public/images/1/bigstock-vltava-river-and-gradchany-pr-87185927.jpg?itok=HYgRSTKH" alt="Česko">
+            <p>Česko - Země v srdci Evropy</p>
             <ul>
                 <li>Hlavní město: Praha</li>
                 <li>Oficiální jazyk: Čeština</li>
@@ -104,8 +118,8 @@
         </div>
 
         <div class="country">
-            <a href="usa.html"><img src="https://www.cksen.cz/modules/top_places/images/520/poznavaci-zajezdy-usa-san-francisco-las-vegas-narodni-parky-49.jpg" alt="USA"></a>
-            <p><a href="usa.html">USA</a> - Supervelmoc se širokou rozmanitostí</p>
+            <img src="https://www.cksen.cz/modules/top_places/images/520/poznavaci-zajezdy-usa-san-francisco-las-vegas-narodni-parky-49.jpg" alt="USA">
+            <p>USA - Supervelmoc se širokou rozmanitostí</p>
             <ul>
                 <li>Hlavní město: Washington, D.C.</li>
                 <li>Oficiální jazyk: Angličtina</li>
@@ -116,8 +130,8 @@
         </div>
 
         <div class="country">
-            <a href="francie.html"><img src="https://storage.googleapis.com/businessinfo_cz/2019/12/f8fa6ac4-eiffelova-vez-pariz-francie-shutterstock_1041178405-scaled.jpg" alt="Francie"></a>
-            <p><a href="francie.html">Francie</a> - Kultura, móda a víno</p>
+            <img src="https://storage.googleapis.com/businessinfo_cz/2019/12/f8fa6ac4-eiffelova-vez-pariz-francie-shutterstock_1041178405-scaled.jpg" alt="Francie">
+            <p>Francie - Kultura, móda a víno</p>
             <ul>
                 <li>Hlavní město: Paříž</li>
                 <li>Oficiální jazyk: Francouzština</li>
@@ -128,8 +142,8 @@
         </div>
 
         <div class="country">
-            <a href="spanelsko.html"><img src="https://www.protravel.cz/img/__galerie/29254-23371-35013-57141-77924.jpg" alt="Španělsko"></a>
-            <p><a href="spanelsko.html">Španělsko</a> - Západní Evropa a slunečné pláže</p>
+            <img src="https://www.protravel.cz/img/__galerie/29254-23371-35013-57141-77924.jpg" alt="Španělsko">
+            <p>Španělsko - Západní Evropa a slunečné pláže</p>
             <ul>
                 <li>Hlavní město: Madrid</li>
                 <li>Oficiální jazyk: Španělština</li>
@@ -140,8 +154,8 @@
         </div>
 
         <div class="country">
-            <a href="nemecko.html"><img src="https://www.cestujlevne.com/obrazky/14/07/1407-1200w.jpg" alt="Německo"></a>
-            <p><a href="nemecko.html">Německo</a> - Technologický lídr a historie</p>
+            <img src="https://www.cestujlevne.com/obrazky/14/07/1407-1200w.jpg" alt="Německo">
+            <p>Německo - Technologický lídr a historie</p>
             <ul>
                 <li>Hlavní město: Berlín</li>
                 <li>Oficiální jazyk: Němčina</li>
@@ -152,8 +166,8 @@
         </div>
 
         <div class="country">
-            <a href="polsko.html"><img src="https://travelking.cdn.it7.sk/images/blog/articles/full/qJ8UrK45.jpg" alt="Polsko"></a>
-            <p><a href="polsko.html">Polsko</a> - Bohatá historie a kultura</p>
+            <img src="https://travelking.cdn.it7.sk/images/blog/articles/full/qJ8UrK45.jpg" alt="Polsko">
+            <p>Polsko - Bohatá historie a kultura</p>
             <ul>
                 <li>Hlavní město: Varšava</li>
                 <li>Oficiální jazyk: Polština</li>
@@ -164,8 +178,8 @@
         </div>
 
         <div class="country">
-            <a href="cina.html"><img src="https://www.cksen.cz/modules/top_places/images/520/poznavaci-zajezdy-hongkong-macao-cina-sanghai-xian-peking-8.jpg" alt="Čína"></a>
-            <p><a href="cina.html">Čína</a> - Největší populace a starověká historie</p>
+            <img src="https://www.cksen.cz/modules/top_places/images/520/poznavaci-zajezdy-hongkong-macao-cina-sanghai-xian-peking-8.jpg" alt="Čína">
+            <p>Čína - Největší populace a starověká historie</p>
             <ul>
                 <li>Hlavní město: Peking</li>
                 <li>Oficiální jazyk: Čínština</li>
@@ -176,8 +190,8 @@
         </div>
 
         <div class="country">
-            <a href="finsko.html"><img src="https://storage.googleapis.com/businessinfo_cz/2021/01/a15681b7-finsko-helsinky-katedrala-shutterstock-1073688410-scaled.jpg" alt="Finsko"></a>
-            <p><a href="finsko.html">Finsko</a> - Zimní krajina a přírodní krásy</p>
+            <img src="https://storage.googleapis.com/businessinfo_cz/2021/01/a15681b7-finsko-helsinky-katedrala-shutterstock-1073688410-scaled.jpg" alt="Finsko">
+            <p>Finsko - Zimní krajina a přírodní krásy</p>
             <ul>
                 <li>Hlavní město: Helsinky</li>
                 <li>Oficiální jazyk: Finština, Švédština</li>
@@ -188,8 +202,8 @@
         </div>
 
         <div class="country">
-            <a href="kazachstan.html"><img src="https://www.cestujlevne.com/obrazky/38/09/13809-1200w.jpg" alt="Kazachstán"></a>
-            <p><a href="kazachstan.html">Kazachstán</a> - Rozlehlá země ve střední Asii</p>
+            <img src="https://www.cestujlevne.com/obrazky/38/09/13809-1200w.jpg" alt="Kazachstán">
+            <p>Kazachstán - Rozlehlá země ve střední Asii</p>
             <ul>
                 <li>Hlavní město: Nur-Sultan (dříve Astana)</li>
                 <li>Oficiální jazyk: Kazaština, Ruština</li>
@@ -200,8 +214,8 @@
         </div>
 
         <div class="country">
-            <a href="australie.html"><img src="https://storage.googleapis.com/businessinfo_cz/2019/12/ee0c6e73-sydney-australie-opera-shutterstock_222603574-scaled.jpg" alt="Austrálie"></a>
-            <p><a href="australie.html">Austrálie</a> - Ostrovní kontinent s unikátní faunou</p>
+            <img src="https://storage.googleapis.com/businessinfo_cz/2019/12/ee0c6e73-sydney-australie-opera-shutterstock_222603574-scaled.jpg" alt="Austrálie">
+            <p>Austrálie - Ostrovní kontinent s unikátní faunou</p>
             <ul>
                 <li>Hlavní město: Canberra</li>
                 <li>Oficiální jazyk: Angličtina</li>
@@ -219,4 +233,6 @@
 
 </body>
 </html>
+
+
 
